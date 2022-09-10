@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.23.0",
     "next": "12.2.5",
+    "next-images": "^1.8.4",
+    "node-sass": "^7.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.54.9"
   },
   "devDependencies": {
     "@types/node": "18.7.16",
