@@ -1,0 +1,16 @@
+.free-chapters-wrapper {
+  margin-right: 1px;
+  background: #1F1F1F;
+  width: 50%;
+  padding: 1rem;
+  .free-chapters-title {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: rgba(255, 255, 255, 0.45);
+  }
+  .free-chapters {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}

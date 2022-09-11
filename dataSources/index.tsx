@@ -1,3 +1,4 @@
 import { mainInfo } from "./mainInfo";
+import { pricingAndPromotion } from "./pricingAndPromotion";
 
-export { mainInfo };
+export { mainInfo, pricingAndPromotion };
