@@ -1,0 +1,32 @@
+.related-title-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .related-title-item {
+    margin-left: 1.5rem;
+    .related-title-title {
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .related-title-tag-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .related-title-tag {
+        margin-left: 5px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #844cff;
+      }
+    }
+    .related-title-text {
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(255, 255, 255, 0.45);
+    }
+  }
+}
