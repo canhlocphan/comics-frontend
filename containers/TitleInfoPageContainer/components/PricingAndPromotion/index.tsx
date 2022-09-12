@@ -1,6 +1,7 @@
 // libs
 import React from "react";
 // components
+import Title from "../../../../components/Title";
 import PricingChapters from "../PricingChapters";
 import AvancedPricingChapters from "../AvancedPricingChapters";
 import LearnMore from "../LearnMore";
@@ -11,9 +12,7 @@ import styles from "./styles.module.scss";
 
 const PricingAndPromotion = () => (
 	<div className={styles["pricing-and-promotion-wrapper"]}>
-		<div className={styles["pricing-and-promotion-title"]}>
-			Pricing & Promotion
-		</div>
+		<Title title="Pricing & Promotion" />
 		<div className={styles["pricing-and-promotion-wrapper-inner"]}>
 			<PricingChapters detailPrice={pricingAndPromotion} />
 			<AvancedPricingChapters advancedPrice={pricingAndPromotion} />

@@ -21,7 +21,7 @@ const LockedChapters = ({
 			<Image src="/images/price.svg" alt="price" width={16} height={13} />
 			<div
 				className={styles["locked-detail"]}
-			>{`${pricingUnlocked}/ chapter)`}</div>
+			>{`${pricingUnlocked} / chapter)`}</div>
 		</div>
 	</div>
 );

@@ -1,0 +1,13 @@
+  .chapter-item-price-wrapper {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: rgba(255, 255, 255, 0.65);
+    .chapter-item-price {
+      display: flex;
+      flex-direction: row;
+      .chapter-item-price-icon {
+        margin-left: 3px;
+      }
+    }
+  }

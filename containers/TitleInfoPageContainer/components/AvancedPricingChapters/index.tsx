@@ -18,7 +18,7 @@ const AvancedPricingChapters = ({ advancedPrice }: IAvancedPricingChapters) => {
 	const { discount, totalPrice, price } = advancedPrice;
 	return (
 		<div className={styles["advanced-pricing-chapters-wrapper"]}>
-			<TotalPrice totalPrice={35} />
+			<TotalPrice totalPrice={totalPrice} />
 			<AdvancedPricing {...{ discount, totalPrice, price }} />
 		</div>
 	);
