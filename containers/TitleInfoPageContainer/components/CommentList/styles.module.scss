@@ -1,0 +1,45 @@
+.comment-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  .comment-list-wrapper-inner {
+    margin-left: 0.75rem;
+    .comment-des {
+      display: flex;
+      flex-direction: row;
+      .comment-des-user {
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(255, 255, 255, 0.45);
+      }
+      .comment-des-time {
+        margin-left: 0.5rem;
+        font-size: 11px;
+        line-height: 18px;
+        color: #434343;
+      }
+    }
+    .comment-des-inbox {
+      max-width: 20rem;
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .comment-list-interactive-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1rem;
+      .comment-list-interactive-text {
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        font-size: 0.75rem;
+        line-height: 1.375rem;
+        color: rgba(255, 255, 255, 0.45);
+      }
+      .comment-list-interactive-reply {
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.45);
+      }
+    }
+  }
+}

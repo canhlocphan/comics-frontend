@@ -1,0 +1,23 @@
+.get-app-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  background: #141414;
+  border-radius: 8px;
+  padding: 1.5rem;
+  .get-app-wrapper-inner {
+    max-width: 300px;
+    .get-app-header {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    .get-app-content {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      color: rgba(255, 255, 255, 0.65);
+      opacity: 0.8;
+    }
+  }
+}
